@@ -62,7 +62,7 @@ public class MySQLTableCreation {
 					+ "FOREIGN KEY (user_id) REFERENCES users(user_id))";
 			stmt.executeUpdate(sql);
 			
-			sql = "INSERT INTO users " + "VALUES (\"1111\", \"3229c1097c00d497a0fd282d586be050\", \"Zijian\", \"Wang\")";
+			sql = "INSERT INTO users " + "VALUES (\"0001\", \"1994\", \"Ziang\", \"Qin\")";
 
 			System.out.println("Executing query:\n" + sql);
 			stmt.executeUpdate(sql);
